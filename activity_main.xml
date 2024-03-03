@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="296dp"
+            android:layout_height="236dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <android.widget.Button
+                android:id="@+id/button_00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold"
+
+           />
+
+            <android.widget.Button
+                android:id="@+id/button_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onClick"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <android.widget.Button
+            android:id="@+id/reset_button"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:onClick="resetGame"
+            android:text="Reset"
+            android:background="@drawable/border"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
+
